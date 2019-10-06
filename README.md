@@ -36,3 +36,12 @@ npm run serve:my-wc
 ```
 npm run serve:client-a
 ```
+
+### RoadMap
+- [ ] mock-server
+- [ ] react component
+- [ ] svelte component
+- [ ] angular elements component
+- [ ] elm component
+- [ ] Polymer/LitElement component
+- [ ] JS Vanilla component
