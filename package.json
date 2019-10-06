@@ -1,0 +1,17 @@
+{
+  "name": "example-micro-apps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve-my-wc": "http-server ./my-micro-app/dist -p 8082",
+    "serve-client-a": "http-server ./client-a/dist -p 8083",
+    "serve-shell": "cd ./angular && ng serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "react-web-component": "^2.0.1"
+  }
+}
