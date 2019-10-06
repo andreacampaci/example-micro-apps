@@ -4,9 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve-my-wc": "http-server ./my-micro-app/dist -p 8082",
-    "serve-client-a": "http-server ./client-a/dist -p 8083",
-    "serve-shell": "cd ./angular && ng serve"
+    "installs": "cd ./angular && npm install && cd ../client-a && npm install && cd ../my-micro-app && npm install",
+    "dev:my-wc": "cd ./my-micro-app && npm run serve",
+    "dev:client-a": "cd ./client-a && npm run serve",
+    "build:my-wc": "cd ./my-micro-app && npm run build-wc",
+    "build:client-a": "cd ./client-a && npm run build-wc",
+    "serve:my-wc": "http-server ./my-micro-app/dist -p 8082",
+    "serve:client-a": "http-server ./client-a/dist -p 8083",
+    "serve:shell": "cd ./angular && ng serve"
   },
   "author": "",
   "license": "ISC",
